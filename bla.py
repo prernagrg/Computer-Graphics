@@ -34,9 +34,9 @@ def bresenham(x1, y1, x2, y2):
 
 
 # Input
-x1 = int(input("Enter x1: "))
-y1 = int(input("Enter y1: "))
-x2 = int(input("Enter x2: "))
-y2 = int(input("Enter y2: "))
+x1 = int(float(input("Enter x1: ")))
+y1 = int(float(input("Enter y1: ")))
+x2 = int(float(input("Enter x2: ")))
+y2 = int(float(input("Enter y2: ")))
 
 bresenham(x1, y1, x2, y2)
